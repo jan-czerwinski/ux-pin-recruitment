@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ux-pin-recruitment/static/css/main.13b03fd9.chunk.css",
+    "main.js": "/ux-pin-recruitment/static/js/main.47c6b594.chunk.js",
+    "main.js.map": "/ux-pin-recruitment/static/js/main.47c6b594.chunk.js.map",
+    "runtime-main.js": "/ux-pin-recruitment/static/js/runtime-main.b3a42326.js",
+    "runtime-main.js.map": "/ux-pin-recruitment/static/js/runtime-main.b3a42326.js.map",
+    "static/js/2.96aad412.chunk.js": "/ux-pin-recruitment/static/js/2.96aad412.chunk.js",
+    "static/js/2.96aad412.chunk.js.map": "/ux-pin-recruitment/static/js/2.96aad412.chunk.js.map",
+    "index.html": "/ux-pin-recruitment/index.html",
+    "static/css/main.13b03fd9.chunk.css.map": "/ux-pin-recruitment/static/css/main.13b03fd9.chunk.css.map",
+    "static/js/2.96aad412.chunk.js.LICENSE.txt": "/ux-pin-recruitment/static/js/2.96aad412.chunk.js.LICENSE.txt",
+    "static/media/backgroundEvil.09fcb043.png": "/ux-pin-recruitment/static/media/backgroundEvil.09fcb043.png",
+    "static/media/backgroundGood.3fc81820.png": "/ux-pin-recruitment/static/media/backgroundGood.3fc81820.png",
+    "static/media/drop-down-arrow.925edd47.svg": "/ux-pin-recruitment/static/media/drop-down-arrow.925edd47.svg",
+    "static/media/ikea.3a19e401.jpg": "/ux-pin-recruitment/static/media/ikea.3a19e401.jpg",
+    "static/media/samsung.6e53bcce.png": "/ux-pin-recruitment/static/media/samsung.6e53bcce.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b3a42326.js",
+    "static/js/2.96aad412.chunk.js",
+    "static/css/main.13b03fd9.chunk.css",
+    "static/js/main.47c6b594.chunk.js"
+  ]
+}
