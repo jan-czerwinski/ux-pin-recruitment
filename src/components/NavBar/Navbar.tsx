@@ -39,7 +39,7 @@ const Navbar = () => {
         <MenuButton
           name="GET STARTED"
           action={() => console.log("Sign In Clicked")}
-          className="nav-bar-button rounded-base justify-center  bg-gradient-to-r  text-white from-custom-blue to-custom-blue-dark font-bold p-3 drop-shadow-2xl shadow-2xl "
+          className="nav-bar-button rounded-base justify-center  bg-gradient-to-r  text-white from-custom-blue to-custom-blue-dark font-bold p-3 button-shadow "
         />
       </div>
     </div>
