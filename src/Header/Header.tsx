@@ -16,18 +16,20 @@ const Header = ({ headline }: HeaderProps) => {
         onMouseOver={() => setBgGoodActive(false)}
         onMouseLeave={() => setBgGoodActive(true)}
       >
-        <div className="absolute h-full z-10  ml-14 lg:ml-32 xl:ml-60">
-          <div className="flex flex-col justify-center h-full w-full  text-white space-y-10">
-            <div className="w-2/3  xl:w-1/2 leading-tight  font-bold text-xl lg:text-2xl xl:text-5xl ">
-              {headline}
-            </div>
-            <div className="flex space-x-3  lg:space-x-5 text-xs md:text-sm  lg:text-md xl:text-lg ">
-              <button className="w-1/4 xl:w-1/6 p-4 rounded-md font-bold  text-black bg-custom-yellow-gold ">
-                SECURE MY DATA
-              </button>
-              <button className="w-1/4 xl:w-1/6 p-4 rounded-md font-bold border-white border-2 hover:bg-white hover:text-custom-orchid-dark  transition ease-in-out duration-300">
-                TAKE A CHANCE
-              </button>
+        <div className="absolute h-full z-10 ">
+          <div className="grid grid-cols-6  items-center h-full ">
+            <div className="ml-4 pb-8 col-span-4 lg:col-start-2 lg:col-span-3   text-white ">
+              <div className="font-bold text-4xl xl:text-5xl mb-5 lg:mb-11 ">
+                {headline}
+              </div>
+              <div className="flex text-xs md:text-sm  lg:text-base ">
+                <button className="w-full  max-w-header-button h-header-button rounded-base font-bold mr-2.5 text-custom-grey bg-custom-yellow-gold ">
+                  SECURE MY DATA
+                </button>
+                <button className="w-full  max-w-header-button h-header-button rounded-base font-bold border-white border-2 hover:bg-white hover:text-custom-orchid-dark  transition ease-in-out duration-300">
+                  TAKE A CHANCE
+                </button>
+              </div>
             </div>
           </div>
         </div>

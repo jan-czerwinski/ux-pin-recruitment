@@ -21,7 +21,7 @@ function App() {
       <Navbar />
       <Header headline={landingData.headline} />
       <Companies />
-      <hr className="border-t-px mt-20" />
+      <hr className="border-t-px my-16 py-1" />
       <BulletPoints bulletPoints={landingData.bulletpoints} />
       <Footer />
     </div>

@@ -6,8 +6,8 @@ const Footer = () => {
     { name: "hello@xplenty.com", link: "" },
   ];
   return (
-    <footer className="py-8 mt-8  bg-custom-blue ">
-      <div className="w-4/5 mx-auto flex space-x-20 text-white text-md">
+    <footer className="py-9 mt-8  bg-custom-blue ">
+      <div className="w-4/5 mx-auto flex space-x-9 text-base text-custom-blue-light">
         {content.map(({ name, link }, idx) => (
           <button className="hover:underline" key={idx}>
             {name}

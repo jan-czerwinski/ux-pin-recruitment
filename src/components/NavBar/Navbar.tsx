@@ -3,9 +3,10 @@ import xplentyLogo from "./xplenty-logo.png";
 
 const Navbar = () => {
   return (
-    <div className="sticky z-50 top-0 bg-white flex justify-between text-md">
-      <div className="flex px-6 space-x-6">
+    <div className="h-nav-bar sticky  px-15px  z-50 top-0 bg-white text-custom-grey flex justify-between text-md">
+      <div className="flex space-x-5 lg:space-x-nav-bar-elements">
         <XplentyLogo />
+
         <MenuButton
           name="Product"
           action={() => console.log("Product clicked")}
@@ -25,7 +26,7 @@ const Navbar = () => {
           dropDown={true}
         />
       </div>
-      <div className="flex space-x-6 px-6">
+      <div className="flex space-x-5 lg:space-x-nav-bar-elements">
         <MenuButton
           name="English"
           action={() => console.log("English clicked")}
@@ -38,7 +39,7 @@ const Navbar = () => {
         <MenuButton
           name="GET STARTED"
           action={() => console.log("Sign In Clicked")}
-          className="bg-gradient-to-r from-custom-blue to-custom-blue-dark rounded-md text-white font-bold p-2"
+          className="nav-bar-button rounded-base justify-center  bg-gradient-to-r  text-white from-custom-blue to-custom-blue-dark font-bold p-3 drop-shadow-2xl shadow-2xl "
         />
       </div>
     </div>
@@ -47,13 +48,13 @@ const Navbar = () => {
 
 const XplentyLogo = () => {
   return (
-    <div className="hidden lg:flex items-center mx-4 space-x-2">
+    <div className="flex items-center  space-x-1">
       <img
-        className="m-2 w-8 h-8"
+        className="m-2 w-logo h-logo"
         src={xplentyLogo}
         alt="xplenty logo circular"
       />
-      <div className="font-bold  h-auto">xplenty</div>
+      <div className="font-bold text-base">Xplenty</div>
     </div>
   );
 };
@@ -68,13 +69,13 @@ const MenuButton = (
 ) => {
   return (
     <div
-      className={`text-sm lg:text-md my-4 flex space-x-1 items-center ${props.className}`}
+      className={`text-base my-auto flex space-x-1 items-center ${props.className}`}
       onClick={props.action}
     >
-      <div>{props.name}</div>
+      {props.name}
       {props.dropDown && (
         <img
-          className="w-2 h-2 mt-1"
+          className="w-2 h-2 mt-1 ml-1"
           src={dropDownArrow}
           alt="drop down arrow"
         />
