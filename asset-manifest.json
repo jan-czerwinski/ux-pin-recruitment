@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/ux-pin-recruitment/static/css/main.4b29ec82.chunk.css",
-    "main.js": "/ux-pin-recruitment/static/js/main.cf2fb4cb.chunk.js",
-    "main.js.map": "/ux-pin-recruitment/static/js/main.cf2fb4cb.chunk.js.map",
+    "main.css": "/ux-pin-recruitment/static/css/main.6e1e5e6b.chunk.css",
+    "main.js": "/ux-pin-recruitment/static/js/main.66fe211d.chunk.js",
+    "main.js.map": "/ux-pin-recruitment/static/js/main.66fe211d.chunk.js.map",
     "runtime-main.js": "/ux-pin-recruitment/static/js/runtime-main.b3a42326.js",
     "runtime-main.js.map": "/ux-pin-recruitment/static/js/runtime-main.b3a42326.js.map",
     "static/js/2.96aad412.chunk.js": "/ux-pin-recruitment/static/js/2.96aad412.chunk.js",
     "static/js/2.96aad412.chunk.js.map": "/ux-pin-recruitment/static/js/2.96aad412.chunk.js.map",
     "index.html": "/ux-pin-recruitment/index.html",
-    "static/css/main.4b29ec82.chunk.css.map": "/ux-pin-recruitment/static/css/main.4b29ec82.chunk.css.map",
+    "static/css/main.6e1e5e6b.chunk.css.map": "/ux-pin-recruitment/static/css/main.6e1e5e6b.chunk.css.map",
     "static/js/2.96aad412.chunk.js.LICENSE.txt": "/ux-pin-recruitment/static/js/2.96aad412.chunk.js.LICENSE.txt",
     "static/media/backgroundEvil.09fcb043.png": "/ux-pin-recruitment/static/media/backgroundEvil.09fcb043.png",
     "static/media/backgroundGood.3fc81820.png": "/ux-pin-recruitment/static/media/backgroundGood.3fc81820.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.b3a42326.js",
     "static/js/2.96aad412.chunk.js",
-    "static/css/main.4b29ec82.chunk.css",
-    "static/js/main.cf2fb4cb.chunk.js"
+    "static/css/main.6e1e5e6b.chunk.css",
+    "static/js/main.66fe211d.chunk.js"
   ]
 }
